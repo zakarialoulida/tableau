@@ -3,15 +3,16 @@
 
 int main()
 {
-    char T[6];
-    T[0]='A';
-    T[1]='O';
-    T[2]='U';
-    T[3]='Y';
-    T[4]='E';
-    T[5]='I';
-    for(int i=0;i<6;i++)
+    int T[10];
+    for(int i=0 ;i<10;i++){
+        printf("veuillez entrer la valeur de T[%d]:",i+1);
+        scanf("%d",&T[i]);
+    };
+    for(int i=0 ;i<10;i++){
+            T[i]=0;
+        printf(" la valeur de T[%d] est =%d:\n",i+1,T[i]);
 
-        printf("la valeur de T[%d] =%c\n",i,T[i]);
+
+    }
     return 0;
 }
