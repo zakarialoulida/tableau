@@ -32,10 +32,10 @@ int main() {
 
     for (int i= 0; t[i] != '\0'; i++) {
             cmp++;
-        // La boucle for compte les caractères jusqu'à '\0'
+        // La boucle for compte les caractÃ¨res jusqu'Ã  '\0'
     }
 
-    printf("Le nombre de caractères est : %d\n", cmp);
+    printf("Le nombre de caractÃ¨res est : %d\n", cmp);
 
     return 0;
 }
